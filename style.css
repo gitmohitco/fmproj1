@@ -1,0 +1,176 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Bebas+Neue&family=Hanken+Grotesk:wght@300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap');
+*{
+    box-sizing: border-box;
+    /* background-color: hsl(0, 0%, 100%); */
+}
+/* header{
+    background-color: hsl(0, 0%, 100%);
+} */
+header>.heading .warp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translate(70%,-50%);
+    box-shadow: 3px 3px 7px rgba(173, 216, 230, 0.84);
+    border-radius: 20px;
+}
+header>.heading>.warp>.left{
+    background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 20px;
+}
+header>.heading>.warp>.left .head{
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-family: 'Hanken Grotesk';
+    font-size: 1rem;
+    font-weight: 700;
+}
+header>.heading>.warp>.left .circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,rgba(78, 33, 202, 0.701),rgba(78, 33, 202, 0.1));
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 1px 1px 7px rgba(78, 33, 202, 0.1);
+}
+header>.heading>.warp>.left .circle #main{
+    color: white;
+    font-size: 3rem;
+    font-weight: 650;
+    font-family: 'Hanken Grotesk';
+    text-align: center;
+    margin-top: 35px;
+}
+header>.heading>.warp>.left .circle #sub{
+    color: rgba(255, 255, 255, 0.603);
+    font-size: 0.8rem;
+    font-family: 'Hanken Grotesk';
+    text-align: center;
+    margin-top: -50px;
+    font-weight: 500;
+}
+header>.heading>.warp>.left .c-head{
+    text-align: center;
+    color: white;
+    font-family: 'Hanken Grotesk';
+}
+header>.heading>.warp>.right{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+/* .warp{
+    background-color: hsl(0, 0%, 100%);
+} */
+header>.heading>.warp>.left .d-head{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.774);
+    margin-top: -20px;
+    font-size: .8rem;
+    font-family: 'Hanken Grotesk';
+}
+.right{
+    padding: 30px;
+}
+.right .r-head{
+    font-family: 'Hanken Grotesk';
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: rgba(130, 130, 130, 0.724);
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.score .sub-score{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    background-color: hsla(0, 100%, 67%, 0.192);;
+    border-radius: 6px;
+    font-family: 'Hanken Grotesk';
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.score .sub-score .sc-head{
+    color: hsl(0, 100%, 67%);
+}
+.score .sub-score .sc-num{
+    font-size: 0.8rem;
+}
+.score .sub-score1{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    background-color:  hsla(39, 100%, 56%, 0.215);
+    border-radius: 6px;
+    font-family: 'Hanken Grotesk';
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.score .sub-score1 .sc-head{
+    color: hsl(39, 100%, 56%);
+}
+.score .sub-score1 .sc-num{
+    font-size: 0.8rem;
+}
+.score .sub-score2{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    background-color:  hsla(166, 100%, 37%, 0.233);
+    border-radius: 6px;
+    font-family: 'Hanken Grotesk';
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.score .sub-score2 .sc-head{
+    color: hsl(166, 100%, 37%);
+}
+.score .sub-score2 .sc-num{
+    font-size: 0.8rem;
+}
+.score .sub-score3{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    background-color: hsla(234, 85%, 45%, 0.203);
+    border-radius: 6px;
+    font-family: 'Hanken Grotesk';
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.score .sub-score3 .sc-head{
+    color: hsl(234, 85%, 45%);
+}
+.score .sub-score3 .sc-num{
+    font-size: 0.8rem;
+}
+.btn button{
+    width: 100%;
+    padding: 8px 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    font-family: 'Hanken Grotesk';
+    font-size: 0.9rem;
+    font-weight: 550;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(2, 5, 39);
+}
+.sp{
+    color: rgba(130, 130, 130, 0.724);
+}
+svg{
+    padding: 5px 4px 0 0;
+    filter: drop-shadow(1px 1px 5px rgb(72, 71, 71));
+}
