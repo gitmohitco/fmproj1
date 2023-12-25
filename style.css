@@ -172,5 +172,5 @@ header>.heading>.warp>.left .d-head{
 }
 svg{
     padding: 5px 4px 0 0;
-    filter: drop-shadow(1px 1px 5px rgb(72, 71, 71));
+/*     filter: drop-shadow(1px 1px 5px rgb(72, 71, 71)); */
 }
