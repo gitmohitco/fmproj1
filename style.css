@@ -173,3 +173,23 @@ header>.heading>.warp>.left .d-head{
 svg{
     padding: 5px 4px 0 0;
 }
+/* Media Query */  
+@media (max-width: 480px){
+    header>.heading .warp{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        position:relative;
+        transform: none;
+        justify-items: center;
+    }
+    header>.heading>.warp>.left{
+        background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .attribution{
+        display: none;
+    }
+}
