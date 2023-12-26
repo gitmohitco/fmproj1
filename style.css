@@ -179,6 +179,7 @@ svg{
         display: flex;
         flex-direction: column;
         width: 100%;
+        left:50px;
         position:relative;
         transform: none;
         justify-items: center;
