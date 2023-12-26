@@ -178,7 +178,7 @@ svg{
     header>.heading .warp{
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 100%;
         position:relative;
         transform: none;
         justify-items: center;
